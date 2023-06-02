@@ -167,7 +167,7 @@ h1{
         margin: 0 auto;
         width: 100%;
         background-color: rgb(255, 255, 255);
-        height: 350px;
+        height: 320px;
         border-radius: 25px;
         position:relative;
         /* padding-top: 40%; */
@@ -175,15 +175,15 @@ h1{
         position: relative;
     }
     .circles{
-        padding-top: 70%;
+        padding-top: 75%;
         transform: translateY(-40%);
     }
 
     .content{
-        padding-bottom: 10%;
+        padding-bottom: 25%;
     }
 
     .btn{
-        width: 50%;
+        width: 70%;
     }
   }
