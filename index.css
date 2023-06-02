@@ -77,7 +77,15 @@ h1{
 
 .circles{
     padding-top: 50%;
-    transform: translateY(-40%);
+    position: absolute;
+    top: 51%;
+    /* background: rgb(240, 208, 148); */
+    /* background: linear-gradient(143deg, rgb(238, 44, 44) 27%, rgb(248, 111, 32) 73%); */
+    width: 10%;
+    padding-top: 0%;
+    padding-left: 10%;
+    transform: translate(420%, -50%);
+    border-radius: 25px;
 }
 
 .dot {
@@ -97,7 +105,7 @@ h1{
 
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 555px){
     .sq{
         top: -5%;
         left: 50%;
@@ -125,9 +133,17 @@ h1{
 
     .circles{
         display: flex;
-        margin: 90px;
-        padding-top: 50%;
         transform: translateY(-50%);
+        width: 10%;
+        margin-top: 20%;
+        padding-left: 0%;
+        border-radius: 25px;
+        width: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+        padding-top: 60%;
+        text-align: center;
     }
     
     .dot {
@@ -135,7 +151,8 @@ h1{
         width: 15px;
         border-radius: 50%;
         display: flex;
-        
+        text-align: center;
+        margin: 0 auto;
       }
 
       .circles :nth-child(2){
@@ -160,30 +177,3 @@ h1{
     }
   }
 
-
-
-  @media only screen and (max-height: 480px){
-    .card{
-        margin: 0 auto;
-        width: 100%;
-        background-color: rgb(255, 255, 255);
-        height: 320px;
-        border-radius: 25px;
-        position:relative;
-        /* padding-top: 40%; */
-        display: flex;
-        position: relative;
-    }
-    .circles{
-        padding-top: 70%;
-        transform: translateY(-40%);
-    }
-
-    .content{
-        padding-bottom: 25%;
-    }
-
-    .btn{
-        width: 70%;
-    }
-  }
