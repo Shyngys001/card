@@ -179,6 +179,10 @@ h1{
         transform: translateY(-40%);
     }
 
+    .content{
+        padding-bottom: 10%;
+    }
+
     .btn{
         width: 50%;
     }
