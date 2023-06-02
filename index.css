@@ -57,8 +57,8 @@ body{
 .sq{
     position: absolute;
     top: 51%;
-    background: rgb(252,172,21);
-    background: linear-gradient(143deg, rgb(252, 106, 21) 27%, rgba(254,52,52,1) 73%);
+    background: rgb(240, 208, 148);
+    background: linear-gradient(143deg, rgb(238, 44, 44) 27%, rgb(248, 111, 32) 73%);
     width: 40%;
     padding-top: 40%;
     transform: translate(-20%, -50%);
@@ -99,7 +99,7 @@ h1{
 
 @media only screen and (max-width: 480px){
     .sq{
-        top: 8%;
+        top: -5%;
         left: 50%;
         transform: translateX(-50%);
         width: 60%;
@@ -110,16 +110,17 @@ h1{
     }
 
     .content{
-        max-width: 50%;
+        max-width: 60%;
         height: 200px;
         margin:  auto;
-        padding-left: 5%;
+        padding-left: 0%;
         transform: translateY(50%);
         /* background-color: aqua; */
         max-height: 300px;
         width: 200px;
-        padding-top: 25%;
+        padding-top: 15%;
         display: block;
+        text-align: center;
     }
 
     .circles{
@@ -155,7 +156,7 @@ h1{
         width: 90%;
         height: 40px;
         font-size: 15px;
-        border-radius: 15px;
+        border-radius: 25px;
     }
   }
 
